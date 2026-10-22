@@ -20,7 +20,7 @@ table{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}td,th{bord
 .note{border-left:3px solid var(--vital);padding:6px 14px;background:#140f0f;margin:12px 0}
 </style></head><body><div class="wrap">
 
-<div class="tag">EVOLUTION PRO · DESIGN BIBLE v1.1 · 2026-10-22 · 새 스튜디오 반영</div>
+<div class="tag">EVOLUTION PRO · DESIGN BIBLE v1.2 · 2026-10-22 · 새 스튜디오 · 말자막 채널 기본형</div>
 <h1>진화력PRO — 몸속 표본실</h1>
 <p style="font-size:17px;color:var(--bone)">ANATOMY NOIR × LAB. 몸 밖은 밝은 실험실, 몸 안은 어두운 표본실. 모든 정보는 표본 라벨처럼 붙인다.</p>
 
@@ -29,7 +29,7 @@ table{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}td,th{bord
 <li><b>컨셉</b>: "MRI는 사진, 우리는 비디오". 밝은 실험실(BLISS 토크)에서 설명하다가, 몸속(어두운 인서트)으로 들어가 보이지 않던 움직임을 꺼내 보여준다</li>
 <li><b>컬러</b>: 2개 모드. LAB(밝은 스튜디오 위) = 잉크 글자 / BODY(어두운 인서트·타이틀) = 본 아이보리 글자. 공통 강조 바이탈 레드 1개, 라벨·선은 스캔 블루</li>
 <li><b>폰트</b>: Paperlogy 하나로 제목·자막 전부 + 라벨은 IBM Plex Mono(영문 대문자)</li>
-<li><b>자막</b>: 말자막은 잉크색 얇은 판 위 아이보리 1줄(어떤 배경에서도 읽힘) · 키워드만 레드 · 효과자막은 "표본 라벨" 문법</li>
+<li><b>자막</b>: 말자막은 어썸블리스 채널 기존 말자막(FCP '반응형 자막': 흰 박스 + 진회색 OT옴니고딕B) 그대로 · 효과자막은 "표본 라벨" 문법</li>
 <li><b>인트로</b>: 코스 인트로(몸속 탐사 → 전신 공개 → 로고) 1개 + 주차 오프너 6초</li>
 <li><b>트랜지션</b>: 3종만. 스캔 와이프 / 블러 블링크 / 하드컷</li>
 <li><b>아웃트로</b>: 미션 카드 → 다음 주 예고 → 엔드 락업</li>
@@ -53,7 +53,7 @@ table{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}td,th{bord
 <div class="sw">
 <div><b style="background:#0B0D10"></b><span>INK #0B0D10<br>바탕·배경</span></div>
 <div><b style="background:#14181D"></b><span>INK 2 #14181D<br>카드·패널</span></div>
-<div><b style="background:#EDE6DA"></b><span>BONE #EDE6DA<br>본문·말자막</span></div>
+<div><b style="background:#EDE6DA"></b><span>BONE #EDE6DA<br>본문(어두운 화면)</span></div>
 <div><b style="background:#B9B1A4"></b><span>BONE 2 #B9B1A4<br>보조 글자</span></div>
 <div><b style="background:#D9483B"></b><span>VITAL #D9483B<br>강조 단 하나</span></div>
 <div><b style="background:#8EC9E6"></b><span>SCAN #8EC9E6<br>라벨·선·UI</span></div>
@@ -71,7 +71,7 @@ table{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}td,th{bord
 <table><tr><th>용도</th><th>폰트</th><th>1080p 기준 크기</th><th>규칙</th></tr>
 <tr><td>코스 타이틀·주차 타이틀</td><td>Paperlogy 8 ExtraBold</td><td>140~220px</td><td>자간 −2%, 한 줄</td></tr>
 <tr><td>챕터(강의) 제목</td><td>Paperlogy 7 Bold</td><td>72~96px</td><td>대본 제목 그대로("허리는 왜 아픈가?")</td></tr>
-<tr><td>말자막</td><td>Paperlogy 6 SemiBold</td><td>46px</td><td>아이보리 글자 + INK 82% 판(모서리 직각, 좌우 여백 24px), 1줄 22자 이내, 온점 없음. 흰 벽·맥북 위 어디서든 읽힘</td></tr>
+<tr><td>말자막</td><td>OT옴니고딕B (채널 기존 '반응형 자막')</td><td>44.7px</td><td>채널 기존 말자막 그대로: 흰 박스(높이 60px, 모서리 직각) + 진회색 글자 #303035, 하단 중앙. 1줄 22자 이내, 온점 없음. SRT → FCP 타이틀 자동 변환으로 넣음</td></tr>
 <tr><td>효과자막(키워드)</td><td>Paperlogy 8 ExtraBold</td><td>110~160px</td><td>LAB 모드에선 INK 글자, 좌우 흰 벽 위. 위에 모노 라벨 동반</td></tr>
 <tr><td>라벨·번호·데이터</td><td>IBM Plex Mono Medium</td><td>22~28px</td><td>영문 대문자, 자간 +14%, SCAN색</td></tr>
 <tr><td>숫자 강조</td><td>Paperlogy 9 Black</td><td>200px+</td><td>52%, 2만 번, 240kg 같은 숫자</td></tr></table>
@@ -115,8 +115,8 @@ table{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}td,th{bord
 <div style="font-size:6.4cqw;font-weight:800;line-height:1;margin-top:.8cqw;letter-spacing:-.2cqw;color:#0B0D10">보상<span style="color:var(--vital)">작용</span></div>
 <div style="font-size:1.45cqw;color:#3a3f45;margin-top:1cqw">일 안 하는 B 때문에<br>A가 대신 아프다</div></div>
 <div style="position:absolute;left:4.2cqw;top:63%"><div class="lbl" style="font-size:.95cqw;color:#2B6F92">COACH</div><div style="font-size:1.7cqw;font-weight:800;color:#0B0D10">어썸블리스 BLISS</div><div style="width:3cqw;height:.22cqw;background:var(--vital);margin-top:.6cqw"></div></div>
-<div style="position:absolute;left:0;right:0;bottom:4.2cqw;text-align:center"><span style="display:inline-block;background:rgba(11,13,16,.82);padding:.5cqw 1.4cqw;font-size:2.3cqw;font-weight:600;color:var(--bone)">우리 허리가 아픈 첫 번째 이유는 <span style="color:#FF6A5C">이 보상 작용</span> 때문이에요</span></div></div>
-<div class="cap">새 스튜디오 캡처 위 시안 · 효과자막·로워서드 모두 좌측 흰 벽(우측은 붐마이크 때문에 비움) · 말자막은 INK 판 위 아이보리(밝은 벽·회색 맥북 어느 위에서도 대비 확보), 판 위 강조색은 VITAL을 밝힌 #FF6A5C · 강의당 효과자막 3~5개</div>
+<div style="position:absolute;left:0;right:0;bottom:4.3cqw;text-align:center"><span style="display:inline-block;background:#fff;padding:.25cqw .6cqw;font-size:2.33cqw;font-weight:700;color:#303035;letter-spacing:-.01em">우리 허리가 아픈 첫 번째 이유는 이 보상 작용 때문이에요</span></div></div>
+<div class="cap">새 스튜디오 캡처 위 시안 · 효과자막·로워서드 모두 좌측 흰 벽(우측은 붐마이크 때문에 비움) · 말자막은 채널 기존 반응형 자막(흰 박스 + 진회색 글자) · 강의당 효과자막 3~5개</div>
 
 <div class="two">
 <div><h3>F5 · 3D 해부 인서트</h3>
